@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+:root{
+    --main-font-family: "Inter", sans-serif;
+    --main-background-color: ;
+}
+
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: var(--main-font-family);
     color: #EAE8FF;
     background: #2D3142;
     padding: 0 40px;
