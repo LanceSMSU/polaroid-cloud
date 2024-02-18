@@ -5,6 +5,10 @@
     --main-background-color: #E9E9E9;
     --primary-text-color: #424242;
     --accent-color: #FF3F3C;
+    --form-box-width: 502px;
+    --form-box-height: 100px;
+    --form-font-size: 12px;
+    --form-box-background-color: lightgray;
 }
 
 body {
@@ -23,6 +27,7 @@ header {
 header h1 {
     margin: 0;
     font-weight: normal;
+    font-size:1.5em;
 }
 
 main {
@@ -81,4 +86,33 @@ h3 {
 
 .cta {
     margin: 0 200px 50px;
+}
+
+.form-box{
+    background: var(--form-box-background-color);
+    border-radius: 15px;
+    width: var(--form-box-width);
+    height: var(--form-box-height);
+}
+
+.cta input[type=text] {
+    font-size: var(--form-font-size);
+    border: None;
+    height: 50px;
+    width: 300px;
+    padding-left: 20px;
+    margin: 25px 0px 25px 25px;
+   
+}
+
+.cta input[type=button] {
+    background: var(--accent-color);
+    font-size: var(--form-font-size);
+    border: None;
+    height: 50px;
+    width: 120px;
+    margin: 25px 25px 25px 5px;
+    text-transform:uppercase;
+    color: white;
+    font-weight: bold;
 }
